@@ -1,6 +1,6 @@
 const argv = require("yargs")
   .command("crear", "Agregar una actividad a la lista por hacer.", {
-    description: {
+    descripcion: {
       demand: true,
       alias: "d",
       desc: "Descripcion de la tarea por hacer.",
